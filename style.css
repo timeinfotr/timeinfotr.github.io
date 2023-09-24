@@ -1,0 +1,76 @@
+body {
+    background-color: #E6E6FA; /* Yumuşak mor (Lavanta) */
+    color: #FF69B4; /* Açık pembe (Rosa) */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #E6E6FA; /* Yumuşak mor (Lavanta) */
+    padding: 20px 0;
+}
+
+.buton {
+    background-color: #FF69B4; /* Açık pembe (Rosa) */
+    color: #E6E6FA; /* Yumuşak mor (Lavanta) */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buton:hover {
+    background-color: #FF1493; /* Daha koyu pembe (Derin Rosa) */
+}
+
+.kronometre {
+    background-color: #FAFAD2; /* Açık sarı (Fildişi) */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.zaman {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FF69B4; /* Açık pembe (Rosa) */
+}
+
+.kontroller {
+    display: flex;
+    justify-content: center;
+}
+
+body, button a {
+    color: #E6E6FA; /* Yumuşak mor (Lavanta) */
+}
+
+#zaman {
+    color: #FF69B4; /* Açık pembe (Rosa) */
+}
+
+a {
+    text-decoration: none;
+    color: #FF1493; /* Daha koyu pembe (Derin Rosa) */
+}
+
+footer {
+    background-color: #E6E6FA; /* Yumuşak mor (Lavanta) */
+    padding: 10px 0;
+    color: #FF69B4; /* Açık pembe (Rosa) */
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
