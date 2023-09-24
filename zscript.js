@@ -52,9 +52,7 @@ function sifirlaZamanlayici() {
     saatInput.disabled = false;
     dakikaInput.disabled = false;
     saniyeInput.disabled = false;
-    // Geri sayım kutusunu gizle
     document.getElementById("geri-sayim-kutusu").style.display = "none";
-    // Zaman ayarlama kutusunu göster
     document.getElementById("zaman-ayar-kutusu").style.display = "block";
 }
 
@@ -67,7 +65,7 @@ function devamEtGeriSayim() {
     }
 }
 
-// Devam Et düğmesini dinlemek için olay ekleyin
+// Devam Et düğmesini dinlemek için
 document.getElementById("devamEtGeriSayim").addEventListener("click", devamEtGeriSayim);
 
 // Durdur düğmesini eklemek için bir fonksiyon
@@ -79,7 +77,7 @@ function durdurGeriSayim() {
     }
 }
 
-// Durdur düğmesini dinlemek için olay ekleyin
+// Durdur düğmesini dinlemek için
 document.getElementById("durdurGeriSayim").addEventListener("click", durdurGeriSayim);
 
 function degerleriGuncelle() {
