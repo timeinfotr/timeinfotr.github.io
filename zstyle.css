@@ -139,21 +139,21 @@ body, button a {
     color: #E6E6FA;
 }
 
-/* Mevcut CSS kodlarınızı buraya kopyalayın */
+
 #zamanlayici-container.hide {
     opacity: 0;
     transform: translateY(-50%);
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* Zaman ayarlama kutusu için stil */
+
 #zaman-ayar-kutusu {
-    display: block; /* Zaman ayarlama kutusu başlangıçta görünecek */
+    display: block;
 }
 
-/* Geri sayım kutusu için stil */
+
 #geri-sayim-kutusu {
-    display: none; /* Geri sayım kutusu başlangıçta gizli olacak */
+    display: none;
 }
 
 footer {
