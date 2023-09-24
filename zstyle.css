@@ -29,7 +29,7 @@ header {
 }
 
 .zamanlayici {
-    background-color: #FAFAD2; /* Açık sarı (Fildişi) */
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
@@ -139,21 +139,21 @@ body, button a {
     color: #E6E6FA;
 }
 
-
+/* Mevcut CSS kodlarınızı buraya kopyalayın */
 #zamanlayici-container.hide {
     opacity: 0;
     transform: translateY(-50%);
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-
+/* Zaman ayarlama kutusu için stil */
 #zaman-ayar-kutusu {
-    display: block;
+    display: block; /* Zaman ayarlama kutusu başlangıçta görünecek */
 }
 
-
+/* Geri sayım kutusu için stil */
 #geri-sayim-kutusu {
-    display: none;
+    display: none; /* Geri sayım kutusu başlangıçta gizli olacak */
 }
 
 footer {
